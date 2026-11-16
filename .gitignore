@@ -1,0 +1,29 @@
+# Common
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json
+coverage/
+tmp/
+# never commit real data
+data/private/
+*.pdf.local
+
+# java
+build/
+.gradle/
+out/
+*.class
+
+# node
+node_modules/
+dist/
+build/
+.next/
+playwright-report/
+test-results/
